@@ -1,5 +1,3 @@
-/* exitprocess.c*/
-/*exitexample*/
 #include <stdlib.h>
 #include <stdio.h>
 

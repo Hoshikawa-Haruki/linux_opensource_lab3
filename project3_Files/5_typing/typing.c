@@ -70,8 +70,7 @@ int main(void)
 
     double typing_time = difftime(end_time, start_time);
 
-    // 오류 횟수와 평균 분당 타수
-    // 분당 타수 = (총 타수 / 걸린시간) * 60
+
     printf("\n오타수 : %d\n", errcnt);
     printf("타이핑 시간 : %.2f\n", typing_time);
     printf("분당 평균 타수 : %.2f\n", (cnt / typing_time) * 60);
